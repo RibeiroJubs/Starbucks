@@ -46,7 +46,7 @@ const mudarCopo = (copo, elipse) => {
             <img class="elipse" src={elipseFundo} alt="" />
                 
                 </section>
-            
+        
         </MainStyle>
     )
 }
