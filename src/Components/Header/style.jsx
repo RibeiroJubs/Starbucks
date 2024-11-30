@@ -53,7 +53,8 @@ export const HeaderStyle = styled.header`
             display: flex;
             justify-content: start;
             @media (max-width: 500px){
-                width: 120px;
+                width: 90px;
+                height: auto;
                 margin-right: 100px;
             
         }

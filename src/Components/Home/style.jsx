@@ -33,10 +33,10 @@ font-family: "Poppins", sans-serif;
     margin-left: 100px;
     @media (max-width:500px){
         text-align: center;
-        width: 340px;
+        width: 370px;
         flex-direction: column;
         justify-content: center;
-        margin-left: 20px;
+        margin-left: 2px;
         background-color: #037143;
         color: #fafafa;
         font-weight: 600;
@@ -70,7 +70,7 @@ h2{
         width: 250px;
         font-size: 1.5rem;
         font-weight: 500;
-        margin-left: 40px;
+        margin-left: 60px;
         flex-direction: column;
         justify-content: center;
         color: #fcfcfc;
@@ -81,6 +81,11 @@ h2{
 
 p{
     font-size: 0.9rem;
+    @media (max-width: 500px){
+        width: 90%;
+        margin-left: 15px;
+    }
+
 }
 .copinhos{ 
     flex-direction: row;
