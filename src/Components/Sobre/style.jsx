@@ -8,7 +8,9 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 font-family: "Poppins", sans-serif;
-
+@media (max-width:500px){
+        flex-direction: column;
+    }
 
 .texto{
     flex-direction: column;
@@ -18,6 +20,11 @@ font-family: "Poppins", sans-serif;
     justify-content: center;
    margin-left: 100px;
    gap: 10px;
+   @media (max-width:500px){
+        width: 340px;
+        margin-left: -5px;
+
+    }
 }
 
 img{
@@ -45,6 +52,9 @@ button{
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: large;
+    @media (max-width:500px){
+        width: 340px;
+    }
 }
 
 button:hover{

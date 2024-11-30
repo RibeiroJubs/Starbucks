@@ -7,8 +7,13 @@ export const HeaderStyle = styled.header`
     justify-content: space-around;
     gap: 600px;
     align-items: center;
-    
-
+    @media (max-width: 500px){
+            width: 100%;
+            flex-direction: column;
+            gap: 1px;
+            display: flex;
+            
+        }
 
     ul{
         list-style: none;
@@ -18,6 +23,15 @@ export const HeaderStyle = styled.header`
         gap: 60px;
         margin-right: 144px;
         font-family: "Poppins", sans-serif;
+
+        @media (max-width: 500px){
+            flex-direction: column;
+            font-size: large;
+            text-align: center;
+            margin-right: 25px;
+            gap: 8px;
+            
+        }
         
     }
 
@@ -34,6 +48,16 @@ export const HeaderStyle = styled.header`
         width: 80px;
         margin-left: 100px;
         margin-top: 20px;
+        @media (max-width: 500px){
+            width: 100px;
+            display: flex;
+            justify-content: start;
+            @media (max-width: 500px){
+                width: 120px;
+                margin-right: 100px;
+            
+        }
+        }
     }
 
 `
