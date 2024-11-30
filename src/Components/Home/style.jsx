@@ -33,14 +33,13 @@ font-family: "Poppins", sans-serif;
     margin-left: 100px;
     @media (max-width:500px){
         text-align: center;
-        width: 300px;
+        width: 340px;
         flex-direction: column;
         justify-content: center;
-        margin-left: 40px;
+        margin-left: 20px;
         background-color: #037143;
         color: #fafafa;
         font-weight: 600;
-        border-radius: 8%;
         height: 47vh;
         
         
@@ -71,7 +70,7 @@ h2{
         width: 250px;
         font-size: 1.5rem;
         font-weight: 500;
-        margin-left: 20px;
+        margin-left: 40px;
         flex-direction: column;
         justify-content: center;
         color: #fcfcfc;
