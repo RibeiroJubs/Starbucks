@@ -38,7 +38,7 @@ font-family: "Poppins", sans-serif;
         justify-content: center;
         margin-left: -9px;
         background-color: #037143;
-        color: #fafafa;
+        color: white;
         font-weight: 600;
         height: 47vh;
         
