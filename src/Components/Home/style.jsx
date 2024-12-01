@@ -12,6 +12,11 @@ font-family: "Poppins", sans-serif;
             flex-direction: column;
             flex-wrap: wrap;
             
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
         }
 
 .text-principal{
@@ -33,7 +38,7 @@ font-family: "Poppins", sans-serif;
     margin-left: 100px;
     @media (max-width:500px){
         text-align: center;
-        width: 370px;
+        width: 100vw;
         flex-direction: column;
         justify-content: center;
         margin-left: 2px;
